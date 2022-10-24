@@ -1,0 +1,91 @@
+.ears-grid{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+}
+@media (min-width: 768px){
+    .ears-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media (min-width: 992px){
+    .ears-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+.link{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.ear .contenido{
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+.ear .contenido .price-stock{
+    display: flex;
+    gap: 4rem;
+}
+.ear .contenido h3{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: var(--primary);
+    font-weight: 900;
+    
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.ear .descripcion {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+.ear .precio{
+    color: var(--primary);
+    font-size: 3.3rem;
+    margin: 0;
+    font-weight: 600;
+}
+.ear .enlace{
+    display: block;
+    margin-top: 1.5rem;
+    background-color: black;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.4rem;
+    transition-property: background-color;
+    transition-duration: 200ms;
+}
+.ear .enlace:hover{
+    background-color: var(--primary);
+}
+
+.full{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10rem;
+    padding: 0rem;
+}
+@media (min-width: 768px){
+    .full {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+.stock-price{
+    text-align: center;
+}
+
+.descripcion{
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
