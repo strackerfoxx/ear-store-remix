@@ -7,6 +7,7 @@ export default function Navegacion() {
         <Link to='/ears' >shop</Link>
         <Link to='/' >best seller</Link>
         <Link to='/about' >about us</Link>
+        <Link to='/carrito'>Cart</Link>
     </div>
   )
 }

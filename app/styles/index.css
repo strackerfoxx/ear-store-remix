@@ -44,11 +44,12 @@
 /* ++++++++++++++HEADER++++++++++++++ */
 
   .header{
-    background-image: linear-gradient(to right, rgb(0 0 0 / .8), rgba(32, 31, 31, 0.7)), url(/img/header.jpg);
+    background-color: rgb(28, 28, 28);
     padding: 4rem 0;
     background-size: cover;
     background-position: center center;
-
+    width: 100%;
+    position: fixed;
   }
   .header .logo{
     width: 25rem;
